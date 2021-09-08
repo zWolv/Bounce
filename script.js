@@ -4,12 +4,12 @@
  * de p5 library, zodra het spel geladen is in de browser
  */
 
-var x = 1;
-var y = 1;
+var x = 50;
+var y = 50;
 function setup() {
   // Maak een canvas (rechthoek) waarin je je speelveld kunt tekenen
   createCanvas(1280, 720);
-
+  background('blue');
   // Kleur de achtergrond blauw, zodat je het kunt zien
   
 }
@@ -19,17 +19,17 @@ function bounce() {
     y += 1;
   }
 
-  i//f(y = 720 - 80) {
-  //  y -= 1;
-  //}
+  if(y => 720 - 80) {
+    y -= 1;
+  }
 
   if(x > 0) {
     x += 1;
   }
 
-  //if(x = 1280 - 80) {
-  //  x -= 1;
-  //}
+  if(x => 1280 - 80) {
+    x -= 1;
+  }
 }
 
 /**
@@ -38,11 +38,11 @@ function bounce() {
  * uitgevoerd door de p5 library, nadat de setup functie klaar is
  */
 function draw() {
-  background('blue');
+  
   // stel vulkleur in
   fill(0, 0, 0);
-  
-  bounce();
+  ellipse(50,50,50,50);
+  //bounce();
   // teken een cirkel
   ellipse(x,y,80,80);
 }
