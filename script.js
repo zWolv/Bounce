@@ -1,5 +1,9 @@
+bal = new.Bal(420,420);
+
+
+
 /**
- * setup
+* setup
  * de code in deze functie wordt één keer uitgevoerd door
  * de p5 library, zodra het spel geladen is in de browser
  */
@@ -43,8 +47,6 @@ function updateCircle() {
     circleX[i] = circleX[i] + speedX[i];
     circleY[i] = circleY[i] + speedY[i];
   }
-
-  
 }
 
 
@@ -106,7 +108,8 @@ function updateVariables() {
  */
 function draw() {
   background('blue');
-  
+  bal.show();
+  bal.update();
   // update alles
-  updateVariables();
+  //updateVariables();
 }
