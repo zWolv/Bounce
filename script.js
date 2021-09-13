@@ -1,6 +1,4 @@
-bal = new.Bal(420,420);
-
-
+var bal = new.Bal(420,420);
 
 /**
 * setup

@@ -29,11 +29,11 @@ class Bal {
             this.speedY = this.speedY * -1;
         }
 
-        if(this.x >= 1200) {
+        if(this.x >= 1211) {
             this.speedX = this.speedX * -1;
         }
 
-        if(this.y >= 640) {
+        if(this.y >= 651) {
             this.speedY = this.speedY * -1;
         }
     }
