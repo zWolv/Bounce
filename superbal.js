@@ -7,7 +7,7 @@ class Superbal {
     kleurG;
     kleurB;
 
-  constructor(_x, _y, _speedX, _speedY,_kleurR,_kleurG,kleurB) {
+  constructor(_x, _y, _speedX, _speedY, _kleurR, _kleurG, _kleurB) {
     this.x = _x;
     this.y = _y;
     this.speedX = _speedX;
@@ -33,7 +33,8 @@ class Superbal {
 
   // toont de bal
   show() {
-    fill(255, 0, 0);
+    fill(this.kleurR,this.kleurG,this.kleurB);
+    //fill(0,255,0);
     ellipse(this.x, this.y, 50, 50);
   }
 }

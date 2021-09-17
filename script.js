@@ -33,7 +33,7 @@ function setup() {
 
     var superbal = new Superbal(randomx, randomy, randomSpeedX, randomSpeedY, randomKleurR, randomKleurG, randomKleurB);
 
-    superballen.push(bal);
+    superballen.push(superbal);
   }
 }
 
