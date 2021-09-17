@@ -4,11 +4,14 @@ class Bal {
   speedX;
   speedY;
 
-  constructor(_x, _y, _speedX, _speedY) {
+  constructor(_x, _y, _speedX, _speedY, _kleurR, _kleurG, _kleurB) {
     this.x = _x;
     this.y = _y;
     this.speedX = _speedX;
     this.speedY = _speedY;
+    this.kleurB = _kleurB;
+    this.kleurG = _kleurG;
+    this.kleurR = _kleurR;
   }
 
   // update de positie van de bal en klapt bij
