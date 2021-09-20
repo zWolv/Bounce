@@ -14,6 +14,6 @@ class Poolbal extends Bal {
         ellipse(this.x, this.y, 40, 40);
         textSize(25);
         fill(0,0,0);
-        text("8",this.x,this.y);
+        text("8",this.x-6,this.y+6);
     }
 }
