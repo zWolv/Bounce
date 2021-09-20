@@ -3,8 +3,8 @@ class Superbal extends Bal{
     kleurG;
     kleurB;
 
-  constructor(_kleurR, _kleurG, _kleurB) {
-    super()
+  constructor(_x, _y, _speedX, _speedY, _kleurR, _kleurG, _kleurB) {
+    super(_x, _y, _speedX, _speedY);
     this.kleurB = _kleurB;
     this.kleurG = _kleurG;
     this.kleurR = _kleurR;
