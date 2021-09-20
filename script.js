@@ -22,8 +22,8 @@ function setup() {
   }
 
     for (var i = 0; i < 1; i++) {
-    var randomX = random(50, 1230);
-    var randomY = random(50, 670);
+    var randomX = random(100, 1180);
+    var randomY = random(100, 620);
     var randomSpeedX = 10;
     var randomSpeedY = 10;
     var randomKleurR = random(0,255);
@@ -36,8 +36,8 @@ function setup() {
   }
 
   for(var i = 0; i < 1; i++) {
-    var randomX = random(50, 1230);
-    var randomY = random(50, 670);
+    var randomX = random(100, 1180);
+    var randomY = random(100, 620);
     var randomSpeedX = 5;
     var randomSpeedY = 5;
 
